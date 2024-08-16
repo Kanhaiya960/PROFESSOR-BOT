@@ -13,10 +13,10 @@ jinja2
 apscheduler
 pyshorteners
 colorama
-wheel 
-ujson 
-wget 
-pytz
+.wheel 
+.ujson 
+.wget 
+.pytz
 .aiofiles
 hachoir
 python-decouple 
@@ -40,7 +40,7 @@ youtube-search-python==1.4.6
 speedtest==0.0.1 
 humanize==4.6.0 
 .Pillow==10.2.0 
-psutil==5.9.4 
+.psutil==5.9.4 
 dnspython==2.3.0
 ffmpeg-python>=0.2.0
 pyromod==1.5
