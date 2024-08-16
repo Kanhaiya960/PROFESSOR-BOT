@@ -6,8 +6,8 @@ shortzy
 datetime 
 pytz 
 .aiohttp
-yt-dlp
-youtube-dl
+.yt-dlp
+.youtube-dl
 ytthumb
 jinja2
 apscheduler
