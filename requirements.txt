@@ -21,7 +21,8 @@ pytz
 hachoir
 python-decouple 
 ffmpeg
-youtube_search
+.youtube-search
+.youtube-search-python
 .NumPy==1.26.2
 .pymongo==4.4.1
 .dnspython==2.3.0
