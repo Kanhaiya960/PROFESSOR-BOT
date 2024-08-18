@@ -5,8 +5,8 @@ RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
 RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /PROFESSOR-BOT
-WORKDIR /PROFESSOR-BOT
-COPY . /PROFESSOR-BOT
+RUN pip install -U pip && pip install -U -r requirements.txt
+WORKDIR /app
+
+COPY . .
 CMD ["python", "bot.py"]
